@@ -21,4 +21,4 @@ Acest proiect a fost făcut pentru concursul NextLab 2025
 # Software utilizat
 
 1.[Micropython v1.26.1](https://micropython.org/download/RPI_PICO_W/)
-2.[Librărie ssd1309](https://github.com/rdagger/micropython-ssd1309)
+2.[Librărie ssd1309](https://github.com/rdagger/micropython-ssd1309) + modificări făcute de mine
