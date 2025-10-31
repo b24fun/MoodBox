@@ -133,7 +133,7 @@ def main():
             
             display.clear()
             
-            nr = randint(1,4)
+            nr = randint(1,5)
             
             if nr == 1:
                 sfat("Zambeste! Lumea", "e mai buna cand", "tu zambesti.")
@@ -143,11 +143,13 @@ def main():
                 sfat("Fericirea ta", "face lumea mai", "luminoasa.")
             elif nr == 4:
                 sfat("Raspandeste", "bucurie oriunde", "mergi.")
+            elif nr == 5:
+                sfat("Traieste clipa", "razi des si", "iubeste fara", "masura.")
             
             # Dacă e ceva în fața senzorului la mai puțin de 5 cm, dute acasă (execută elem())
             
             while True:
-                if dist() <= 5:
+                if dist() <= 8:
                     break
                 sleep(0.2)
                 
@@ -163,7 +165,7 @@ def main():
             
             display.clear()
             
-            nr = randint(1,4)
+            nr = randint(1,5)
             
             if nr == 1:
                 sfat("Ia o pauza,", "meriti sa", "respiri.")
@@ -173,11 +175,13 @@ def main():
                 sfat("Marile", "realizari incep", "cu un moment de", "liniste.")
             elif nr == 4:
                 sfat("Relaxeaza-te...", "totul va fi", "bine.")
+            elif nr == 5:
+                sfat("Fiecare zi grea", "te face mai", "puternic.")
             
             # Dacă e ceva în fața senzorului la mai puțin de 5 cm, dute acasă (execută elem())
             
             while True:
-                if dist() <= 5:
+                if dist() <= 8:
                     break
                 sleep(0.2)
                 
@@ -193,7 +197,7 @@ def main():
             
             display.clear()
             
-            nr = randint(1,4)
+            nr = randint(1,5)
             
             if nr == 1:
                 sfat("Respira adanc..", "totul e sub", "control.")
@@ -203,11 +207,13 @@ def main():
                 sfat("Nu trebuie sa", "faci totul", "perfect azi.")
             elif nr == 4:
                 sfat("Esti mai", "puternic decat", "crezi.")
+            elif nr == 5:
+                sfat("Lacrimile curata", "sufletul si", "pregatesc loc", "pentru zambet.")
             
             # Dacă e ceva în fața senzorului la mai puțin de 5 cm, dute acasă (execută elem())
             
             while True:
-                if dist() <= 5:
+                if dist() <= 8:
                     break
                 sleep(0.2)
                 
